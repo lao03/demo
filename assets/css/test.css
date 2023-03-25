@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.item{
+    background-color: orange;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    min-height: 380px;
+    line-height: 380px;
+}
+
+.content-section{
+    width: 70%;
+}
+
+.choices{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    background-color: #ffffff;
+    min-height: 25rem;
+    justify-content: center;
+    align-items: center;
+    padding-right: 106px;
+}
+
+.choices .choice-col{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.choices .choice-col input{
+    width: 100%;
+}
+
+.booking{
+    height: 25rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+    background-color: #ff7757;
+}
+
+@media (max-width: 737px){
+    .content-section{
+        width: 100%;
+    }
+
+    .booking{
+        height: 2rem;
+    }
+} 
